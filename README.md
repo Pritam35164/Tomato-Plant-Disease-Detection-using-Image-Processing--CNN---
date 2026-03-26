@@ -4,7 +4,6 @@
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![TensorFlow 2.13+](https://img.shields.io/badge/TensorFlow-2.13+-orange.svg)](https://www.tensorflow.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-green.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-Plant--Disease--Detection-blue?logo=github)](https://github.com/)
 
 A **deep learning-powered web application** for real-time detection and classification of tomato plant diseases using **image processing**, **Convolutional Neural Networks (CNN)**, and **Support Vector Machines (SVM)**.
