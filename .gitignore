@@ -1,0 +1,180 @@
+# ==========================================
+# PYTHON & ENVIRONMENT
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# IDE & EDITOR
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+.atom/
+.history
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!Train_diseases.ipynb
+!Test_diseases.ipynb
+.jupyter/
+.jupyterlab/
+
+# ==========================================
+# MACHINE LEARNING & TRAINING
+# ==========================================
+# Large model files - store in releases/GitHub LFS instead
+*.h5
+!trained_disease_model.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.pth
+*.onnx
+*.pb
+!models/.gitkeep
+
+# Training artifacts
+*.log
+logs/
+runs/
+checkpoints/
+weights/
+*.ckpt
+
+# ==========================================
+# DATASETS - CRITICAL FOR ML PROJECTS
+# ==========================================
+# Training datasets - DO NOT COMMIT
+train/
+valid/
+test/
+train_processed/
+valid_processed/
+test_processed/
+data/raw/
+data/processed/
+datasets/
+
+# ==========================================
+# CACHE & TEMPORARY FILES
+# ==========================================
+.cache/
+*.cache
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ==========================================
+# STREAMLIT SPECIFIC
+# ==========================================
+streamlit_cache/
+streamlit_caches/
+.streamlit/secrets.toml
+
+# ==========================================
+# OS SPECIFIC
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# PROJECT SPECIFIC
+# ==========================================
+.ipynb_checkpoints
+Untitled.ipynb
+app1.py
+home_page.jpeg
+*.jpg
+*.jpeg
+*.png
+output/
+results/
+predictions/
+
+# ==========================================
+# GIT
+# ==========================================
+.git/
+.gitignore
+
+# ==========================================
+# DOCUMENTATION BUILDS
+# ==========================================
+site/
+docs/_build/
+.mkdocs/
+
+# ==========================================
+# COVERAGE & TESTING
+# ==========================================
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ==========================================
+# MISC
+# ==========================================
+*.bak
+*.swp
+*.swo
+*~
+.~*
