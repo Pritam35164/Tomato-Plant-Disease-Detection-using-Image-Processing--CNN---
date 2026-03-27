@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tomato-plant-disease-detection
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
